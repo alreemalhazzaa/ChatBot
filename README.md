@@ -1,5 +1,6 @@
-#LLM Chatbot Training (Groq + Llama 3)
-##Description
+# LLM Chatbot Training (Groq + Llama 3)
+
+## Description
 
 The LLM Chatbot is a Python-based console application that demonstrates how to build an AI assistant using Groq’s high-speed Llama 3 API. It features a conversational loop, customizable model parameters, and a system for following specific writing guidelines.
 
@@ -16,7 +17,7 @@ Features
 
     Utility Commands: Includes features to save logs, clear memory, and show help.
 
-##Technologies Used
+## Technologies Used
 
     Python
 
@@ -26,7 +27,7 @@ Features
 
     Llama 3 8B Model 
 
-##How the Program Works
+## How the Program Works
 
     The script loads the API key from a .env file and reads the writing_guideline.txt.
 
@@ -42,7 +43,7 @@ Features
 
         /clear: Wipes the current message history.
 
-##How to Run
+## How to Run
 
     Create the folder structure: prompts/, docs/, and outputs/.
 
@@ -52,7 +53,7 @@ Features
 
     Run the script: python app.py.
 
-##Example Output
+## Example Output
 
     User: /summarize docs/sample_doc.txt
 
@@ -60,6 +61,6 @@ Features
 
     System: Saved to outputs/sample_doc_summary.txt 
 
-##Author
+## Author
 
 Al-Reem Al-Hazza
